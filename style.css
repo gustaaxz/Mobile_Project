@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --cinza-claro: #757B8A;
+    --verde-btn: #24AA4A;
+    --verde-light: #EBFAEF;
+    --verde-dark: #094319;
+    --cinza-claro2: #EBFAEF;
+    --branco-claro: #EDEDED;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    padding-bottom: 4.179rem;
+}
+
+h1 {
+    font-family: "Plus Jakarta Sans";
+    font-weight: 900;
+}
+
+h2 {
+    font-family: "Plus Jakarta Sans";
+}
+
+h3, p, a, blockquote {
+    font-family: "Inter", "Sans-serif";
+}
+
+footer {
+    padding: 0 1rem 0 1rem;
+}
+
+main section {
+    padding: 0 2rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.header-logo {
+    display: flex;
+    gap: 0.4rem;
+}
+
+.hamburguer-menu {
+    display: inline-block; 
+    transform: scaleX(1.5);
+}
+
+.topper-title {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0 0 2rem 0;
+}
+
+.section-main-title {
+    font-weight: 900;
+}
+
+.topper-title p {
+    font-size: 1.125rem;
+    font-weight: 800;
+}
+
+.topper-title h2 {
+    font-size: 3.75rem;
+    font-weight: 900;
+    line-height: 100%;
+}
+
+.topper-subtitle {
+    display: flex;
+    padding: 0 0 2.5rem 0;
+    line-height: 160%;
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--cinza-claro);
+}
+
+.topper-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem 2rem 1rem 2rem;
+    background-color: var(--verde-btn);
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color: white;
+    max-width: 50%;
+}
+
+.btn-primary {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.topper-photo-container {
+    display: flex;
+    padding: 2.875rem 0 5.75rem 0;
+}
+
+.topper-photo-container img {
+    max-width: 100%;
+}
+
+#top-content {
+    background-color: var(--verde-light);
+    padding-bottom: 5.3rem;
+}
+
+.top-photo-rooms img {
+    padding-top: 5.5rem;
+    max-width: 100%;
+}
+
+.top-title {
+    padding: 3rem 0 2rem 0;
+    font-size: 2rem;
+}
+
+.top-subtitle {
+    color: var(--cinza-claro);
+    padding: 0 0 2.5rem 0;
+}
+
+.top-subtitle p {
+    line-height: 160%;
+    font-weight: 500;
+}
+
+.top-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem 2rem 1rem 2rem;
+    background-color: var(--verde-btn);
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color: white;
+    max-width: 50%;
+}
+
+.btn-secondary {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#middle-content {
+    background-color: var(--verde-dark);
+    padding-bottom: 4.625rem;
+}
+
+.middle-title {
+    color: white;
+    padding: 4.3rem 0 0 0;
+    font-size: 2rem;
+}
+
+.section-main-title {
+    font-weight: 700;
+}
+
+.middle-subtitle {
+    color: var(--cinza-claro2);
+    padding: 2rem 0 2.5rem 0;
+    line-height: 160%;
+}
+
+.middle-stats {
+    display: flex;
+    padding: 0 0 3.5rem 0;
+    color: white;
+    font-size: 2rem;
+    justify-content: space-between;
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.stat-label {
+    display: flex;
+    gap: 0.5rem;
+    color: var(--cinza-claro2);
+    font-size: 0.75rem;
+}
+
+.middle-image img {
+    max-width: 100%;
+}
+
+#middle-under {
+    padding-top: 7rem;
+}
+
+.under-title {
+    font-size: 1.6rem;
+    padding-bottom: 1rem;
+}
+
+.section-main-title {
+    font-weight: 700;
+}
+
+.under-subtitle {
+    color: var(--cinza-claro);
+    line-height: 160%;
+    padding-bottom: 2.75rem;
+}
+
+.under-photo img {
+    max-width: 100%;
+    padding: 0 0 2.875rem 0;
+}
+
+.vertical-line {
+    border-left: 0.5px solid var(--branco-claro);
+    height: 100px;
+    align-self: center;
+}
+
+.features-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.feature-card {
+    width: 40%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature-card i {
+    font-size: 2rem;
+    align-self: auto;
+    padding-bottom: 1rem;
+}
+
+.feature-card p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 150%;
+    text-align: center;
+}
+
+.under-photo-c img {
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-topper {
+    background-color: aqua;
+}
+
+.footer-top {
+    background-color: aquamarine;
+}
+
+.footer-middle {
+    background-color: rgb(117, 117, 238);
+    flex-direction: row;
+}
+
+.footer-end-content {
+    background-color: rgb(23, 155, 155);
+}
+
