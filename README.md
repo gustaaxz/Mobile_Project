@@ -9,6 +9,3 @@
 
 ## Em caso de dúvidas ou sugestões para criação de novos sites, clique aqui em baixo e me contate!
 <a href="mailto:gustavo_hatschbach@estudante.sesisenai.org.br"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" hspace="5"></a>
-=======
-# Mobile_Project
->>>>>>> 327ba2679e53664e4e8ef624cbac45b962977797
