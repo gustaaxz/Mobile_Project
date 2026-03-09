@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Atividade Projeto Figma
 ### Essa atividade foi realizada em sala de aula individualmente para treinar e fortalecer as habilidades em HTML e CSS
 
