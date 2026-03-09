@@ -3,7 +3,7 @@
 
 #
 ### Instruções:
-- A resolução que deve ser utilizada é <strong>428px</strong>
+- A resolução que deve ser utilizada é <strong>375px</strong>
 - Utilize a extensão Live Server (Microsoft), que pode ser encontrado na "loja de extensões" do Visual Code Studio (VSCode)
 - Rode a aplicação no index.html
 
